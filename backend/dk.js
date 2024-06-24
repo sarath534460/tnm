@@ -7,7 +7,7 @@ app.use(bodyParser.json({ limit: '10mb' }))
 
 app.get('/tes/:ig',(req,res)=>{
  console.log(req.params)
-  res.json("hello ")
+  res.json("helloo ")
   console.log("hjj")
 })
 
