@@ -18,7 +18,12 @@ app.get('/',(req,res)=>{
   // console.log("hjj")
  })
 
-
+ app.get('/click',(req,res)=>{
+  // console.log(req.params)
+    res.send("hello vercel")
+   // console.log("hjj")
+  })
+ 
 app.listen(480,()=>{
     console.log("listening on server 480")
 })
