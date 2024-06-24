@@ -12,6 +12,11 @@ app.get('/tes/:ig',(req,res)=>{
 })
 
 
+app.get('/',(req,res)=>{
+ // console.log(req.params)
+   res.send("hello vercel")
+  // console.log("hjj")
+ })
 
 
 app.listen(480,()=>{
