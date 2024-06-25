@@ -18,6 +18,12 @@ app.get('/',(req,res)=>{
   // console.log("hjj")
  })
 
+ app.get('/kv',(req,res)=>{
+  // console.log(req.params)
+    res.send("hello pk")
+   // console.log("hjj")
+  })
+ 
  app.get('/click',(req,res)=>{
   // console.log(req.params)
     res.send("hello sarath")
