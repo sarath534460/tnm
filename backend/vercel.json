@@ -4,12 +4,9 @@
       { "src": "./index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "./index.js" },
-      { "handle": "filesystem" },  
-      { "src": "/tes/:ig", "dest": "./index.js" },
-      { "src": "/click", "dest": "./index.js" },
-      { "src": "/", "dest": "./index.js" }
-
+      { "handle": "filesystem" },
+      { "src": "/(.*)", "dest": "./index.js" }
+  
     ]
   }
   
