@@ -4,7 +4,12 @@
       { "src": "./index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "./index.js" }
+      { "src": "/(.*)", "dest": "./index.js" },
+      { "handle": "filesystem" },  // Handle static files if any
+      { "src": "/tes/:ig", "dest": "./index.js" },
+      { "src": "/click", "dest": "./index.js" },
+      { "src": "/", "dest": "./index.js" }
+
     ]
   }
   
