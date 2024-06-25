@@ -20,7 +20,7 @@ app.get('/',(req,res)=>{
 
  app.get('/click',(req,res)=>{
   // console.log(req.params)
-    res.send("hello vercel")
+    res.send("hello sarath")
    // console.log("hjj")
   })
  
