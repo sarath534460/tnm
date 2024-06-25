@@ -4,7 +4,7 @@
       { "src": "./dk.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/" }
+      { "src": "/(.*)", "dest": "./dk.js" }
     ]
   }
   
